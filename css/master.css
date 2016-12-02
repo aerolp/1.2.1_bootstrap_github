@@ -1,0 +1,35 @@
+html{
+  background: url(wallpaper.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.conteudo{
+  margin-top: 80px;
+}
+
+.logo{
+  width: 200px;
+  margin-top: 0px;
+}
+
+.navbar-nav{
+  float: right;
+}
+
+.pTitle{
+  padding-left: 30px;
+  font-size: 500%;
+  font-family: 'Oswald',serif;
+  color: red;
+  margin-bottom: -20px;
+}
+
+.p1{
+    margin-left: 100px;
+    color: red;
+    font-size: 120%
+    font-family: 'Oswald',serif;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+    <link href="./css/bootstrap.min.css"rel="stylesheet">
+    <link rel="stylesheet" href="./css/master.css" media="screen">
+    <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="home.html"><img src="./Imagens/logoMenu.png" class="logo"/></a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="dropdown">
+              <a href="bands.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Bands <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Metallica</a></li>
+                <li><a href="#">Avenged 7fold</a></li>
+                <li><a href="#">Dragonforce</a></li>
+                <li><a href="#">Vocaloid</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+
+      </div>
+    </nav>
+
+
+    <div class="container conteudo">
+      <hr class="menuHr"></hr>
+      <p class="pTitle">Music Bands</p>
+      <p class="p1">This is a simple text about our website</p>
+      <button class="btn btn-success"><a href="bands.html">EXPLORE</a></button>
+    </div>
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+
+  </body>
+</html>
